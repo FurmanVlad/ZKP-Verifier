@@ -1,0 +1,178 @@
+/* Add these styles to your CSS file */
+
+.button-container {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.proof-button {
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.start-button {
+    background-color: #4f46e5;
+    color: white;
+    border: 2px solid #4f46e5;
+}
+
+.start-button:hover {
+    background-color: #4338ca;
+    border-color: #4338ca;
+}
+
+.start-button:disabled {
+    background-color: #c7d2fe;
+    border-color: #c7d2fe;
+    cursor: not-allowed;
+}
+
+.reset-button {
+    background-color: #dc2626;
+    color: white;
+    border: 2px solid #dc2626;
+}
+
+.reset-button:hover {
+    background-color: #b91c1c;
+    border-color: #b91c1c;
+}
+/* Add these styles to your CSS file */
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f4f6;
+    padding: 2rem;
+}
+
+.graph-container {
+    width: 100%;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 2rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(45deg, #4f46e5, #7c3aed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #6b7280;
+    font-weight: 500;
+}
+
+/* Previous button styles remain the same */
+.button-container {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    justify-content: center;
+}
+
+.proof-button {
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.start-button {
+    background-color: #4f46e5;
+    color: white;
+    border: 2px solid #4f46e5;
+}
+
+.start-button:hover {
+    background-color: #4338ca;
+    border-color: #4338ca;
+}
+
+.start-button:disabled {
+    background-color: #c7d2fe;
+    border-color: #c7d2fe;
+    cursor: not-allowed;
+}
+
+.reset-button {
+    background-color: #dc2626;
+    color: white;
+    border: 2px solid #dc2626;
+}
+
+.reset-button:hover {
+    background-color: #b91c1c;
+    border-color: #b91c1c;
+}
+.title2 {
+    
+        text-align: center;
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+        
+    
+}
+@keyframes progressBarAnimation {
+    0% {
+      background-position: 40px 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #f3f4f6;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px 0;
+    border: 1px solid #e5e7eb;
+  }
+  
+  .progress-bar-fill {
+    height: 100%;
+    background: linear-gradient(45deg, 
+      #4f46e5 25%, 
+      #6366f1 25%, 
+      #6366f1 50%, 
+      #4f46e5 50%, 
+      #4f46e5 75%, 
+      #6366f1 75%, 
+      #6366f1);
+    background-size: 40px 40px;
+    animation: progressBarAnimation 1s linear infinite;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  /* Keep your existing CSS */
